@@ -15,6 +15,10 @@ import com.nt.service.IUserMgmtService;
 
 @Controller
 public class ShowHomeController {
+     public String add() {
+    	 System.out.println("JIRA Ticket-122");
+    	 return "";
+     }
 	
 	@Autowired
 	private IUserMgmtService userService;
